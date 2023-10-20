@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+
+}
+
+header{
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 1;
+    grid-area: header;
+}
+
+.topp-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo {
+    text-decoration: none;
+}
+
+.kategorier{
+    display: flex;
+    flex-direction: row;
+}
+.kategorier a{
+    padding: 30px;
+
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+ul{
+    list-style-type: none;
+    justify-content: center;
+}
+
+main{
+    grid-column: 1/span 1;
+    grid-row: 2/ span 1;
+}
+
+.ikonernav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.venstre-ikoner, .hoyre-ikoner{
+    display: flex;
+    gap: 18px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.shadow1{
+justify-content: space-between;
+height: auto;
+ /* margin: auto;  */
+ padding: 2px; 
+background-color: rgb(221, 214, 214);
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}  
+
+    
+
+.hvitesko{
+    width: 40%;
+   
+}
+
+.cowboy{
+    width: 40%;
+    
+}
+
+.hovedbilder{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.tekst-til-nye{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.hvite-utenreim{
+    width: 30%;
+}
+
+.sorte-new{
+    width: 30%;
+}
+
+.hvite-reim{
+    width: 30%;
+}
+
+.nye-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-items: start end center stretch;
+}
+
+.candy{
+    width: 35%;
+    padding: 5px;
+}
+
+.pinkp{
+    width: 35%;
+    padding: 5px;
+}
+
+.teddyb{
+    width: 31%;
+    padding: 5px;
+}
+
+.powerp{
+    width: 35%;
+    padding: 5px;
+}
+
+.fluffyb{
+    width: 31%;
+    padding: 5px;
+}
+
+.blackw{
+    width: 35%;
+    padding: 5px;
+}
+
+.forsterad{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.andrerad{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tredjerad{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* a{
+    padding-left: 30px;
+    
+} */
+
+#Grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+}
+
+.betalingsmuligheter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    grid-column: 1/ span 1;
+    grid-row: 3/ span 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+.shadow-box{
+        width: 200px;
+        height: 20px;
+        background-color: rgb(189, 179, 179);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+}
