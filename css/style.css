@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         /* min-height: 100vh; */
-        height: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
+    
 }
 
 header{
@@ -25,13 +27,14 @@ header{
 #logo {
     text-decoration: none;
     color: black;
+    font-size:x-large;
     
 }
 
 .fa-solid fa-sliders{
     display: flex;
-    flex-direction: center;
-    justify-content: column;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .kategorier{
@@ -45,19 +48,49 @@ header{
     color: black;
 
 }
-.utsjekk-bilder{
-    width: 50px;
+
+.avslag{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+ .utsjekk-bilde{
+    width: 100px;
     padding: 5px;
  } 
 
 .utsjekk-bilder img{
-    display: block;
-    margin-bottom: 10px;
+    display: block
 }
-.textrad-utsjekk{
+
+.utsjekk-bilder h5{
+    text-align: center;
+}
+
+#art1{
     display: flex;
     flex-direction: row;
+    text-align: right; 
+    gap: 5px;
 }
+#art2{
+    display: flex;
+    flex-direction: row;
+    text-align: right; 
+    gap: 5px;
+}
+
+.betalingbilder{
+    width: 12%;   
+}
+
+.betaling-levering{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+}
+
 .filter{
     display: flex;
     flex-direction: row;
@@ -145,13 +178,14 @@ box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     flex-direction: row;
 }
 
-/* #grid-container{
+ #grid-container{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    justify-items: start end center stretch;
-} */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 5fr 0fr;
+ }
+    
+
 
 .image{
     width: 32%;
@@ -179,6 +213,7 @@ box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 
  #Grid{ 
     display: grid;
+    height: 100%;
     grid-template-columns: 1fr;
     grid-template-areas: "header" "main" "footer";
  }
@@ -235,6 +270,7 @@ footer{
     #Grid{
     grid-template-areas: "header header header"  "main main main" "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 5fr 0fr;
 
     }
     main{

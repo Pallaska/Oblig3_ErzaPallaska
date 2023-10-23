@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font/css/all.css">
+    <link rel="stylesheet" href="css/font/css/solid.css">
+    <link rel="stylesheet" href="css/font/css/fontawesome.css">
+    <link rel="stylesheet" href="css/font/css/brands.css">
     <title>ANGELS</title>
 </head>
 <body>
@@ -20,13 +22,22 @@
                     <div class="venstre-ikoner">
                     <i class="fa-solid fa-magnifying-glass"></i> 
                     <i  class="fa-regular fa-heart"></i>
-                    <i  class="fa-solid fa-cart-shopping"></i>
+                    <a href="utsjekk.html"><i class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </nav>
                 <nav>
-                    <ul class="utsjekk">
-                        <p>SHOPPING BAG | 2 ITEMS</p>
-                    </ul>
+                    <section>
+                        <ul class="utsjekk">
+                            <li>
+                            <p>SHOPPING BAG | 2 ITEMS</p>
+                            </li>
+                        </ul>
+                        <ul class="avslag">
+                            <li>
+                            Discount code <br> Gift card code 
+                            </li>
+                        </ul>
+                    </section>
                 </nav>
                 <div class="text1">
                     <ul class="filter">
@@ -34,22 +45,49 @@
                 </div>
             </section>
         </header>
-            <main>
-                <section class="utsjekk-bilder">
-                <img src="img/blackwidow.png" alt="#" class="utsjekk-bilde">
-                <!--Bildekilde:-->
-                <img src="img/powerpuff.jpg" alt="#" class="utsjekk-bilde">
-                <!--Bildekilde:-->
-                </section>
-                <section class="textrad-utsjekk">
-                    <p>TEDDY BEAR</p>
-                    <p>POWER PUFF</p>
-                </section>
-                <section class="textrad-priser">
-                    <p>249,-</p>
-                    <p>349,-</p>
-                </section>
-            </main>      
+        <main>
+            <section class="utsjekk-bilder">
+                <article id="art1">
+                    <img src="img/blackwidow.png" alt="#" class="utsjekk-bilde"> 
+                    <!--Bildekilde:https://pin.it/2em7VvD-->
+                    <h5>BLACK WIDOW</h5>
+                    <h5>499,-</h5>
+                    <article>
+                        <h5>QUANITY 1</h5>
+                        <h5>Remove</h5>
+                    </article>
+                </article>
+                <article id="art2">
+                    <img src="img/powerpuff.jpg" alt="#" class="utsjekk-bilde">
+                    <!--Bildekilde:https://pin.it/4HPDmcV-->
+                    <h5>POWER PUFF</h5>
+                    <h5>349,-</h5>
+                    <article>
+                        <h5>QUANITY 1</h5>
+                        <h5>Remove</h5>
+                    </article>
+                </article>
+            </section>  
+            <section class="betaling-levering">
+                <article class="betalinger-ut">
+                    <h5>TOTAL : 748 NOK</h5>
+                    <h4> Velg betalingsmetode</h4>
+                    <img src="img/master.png" alt="bilde av betaling">
+                    <img src="img/klarna.png" alt="bilde av betaling klarna">
+                    <img src="img/visa.png" alt="bilde av betaling visa">
+                    <!--Bildekilde:https://www.na-kd.com/no/alle-kategorier/high-neck-plisse-top-brown-1017-002195-0017-->
+                </article>
+                <article>
+                    <h4>Velg levering</h4>
+                    <img src="img/postnord.png" alt="bilde av postnord" class="betalingbilder">
+                    <!--Bildekilde:https://www.facebook.com/photo/?fbid=483040603830892&set=a.483040577164228-->
+                    <img src="img/bring.jpg" alt="bilde av bring" class="betalingbilder">
+                    <!--Bildekilde:https://no.linkedin.com/company/bringintermodal-->
+                    <img src="img/dhl.png" alt="bilde av dhl" class="betalingbilder">
+                    <!--Bildekilde:https://www.deguy.no/dhl-international-ex-->
+                </article>
+            </section>
+        </main>      
                 <ul>
                     <li><a href="index.html"></a></li>
                 </ul>
@@ -59,6 +97,7 @@
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-solid fa-envelope"></i>
+                    <!--Ikonkilder:Alle kilder hentet fra fontawesome-->
                     </div>
             </section>
         </footer>
