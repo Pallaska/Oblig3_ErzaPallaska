@@ -265,6 +265,149 @@ footer{
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     }
 
+/*analyseside*/
+
+.angelsgraf{
+    width: 40%;
+}
+.angelsgraf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.penskograf{
+    width: 40%;
+}
+
+.penskograf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.skograf{
+    width: 40%;
+}
+.skograf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.hoyebootsgraf{
+    width: 40%;
+}
+.hoyebootsgraf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bootsgraf{
+    width: 40%;
+}
+.bootsgraf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.loafersgraf{
+    width: 40%;
+}
+.loafersgraf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tøflergraf{
+    width: 40%;
+}
+.tøflergraf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.heelsgraf{
+    width: 40%;
+}
+
+.heelsgraf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hoyehaler{
+    width: 40%;
+}
+
+.hoyehaler{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.lighthouse_result{
+    width: 30%;
+}
+
+.lighthouse_result{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.seo{
+    width: 30%;
+}
+
+.seo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.chatgpt_tekst{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.chatgpt_test{
+    width: 35%;
+}
+
+.chatgpt{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.chatgpt1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tabell_tekst{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.analyse_tabell{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
     
 @media only screen and (min-width: 600px){
     #Grid{
